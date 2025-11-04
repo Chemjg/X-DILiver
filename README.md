@@ -116,7 +116,7 @@ If you have already calculated molecular descriptors externally, you can use X-D
 
 **Basic usage:**
 ```bash
-python test_scripts/test.py --input MolwithDes.txt --output outputFILE.txt
+python test_scripts/test.py --input test_scripts/MolwithDes.txt --output test_scripts/outputFILE.txt
 ```
 
 **Note:** The descriptor file must have the same format as the output from the descriptor calculation pipeline (Mordred + DRAGON7 features).
