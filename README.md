@@ -14,7 +14,7 @@
   <img src="https://github.com/Chemjg/X-DILiver/blob/main/img/workflow.png" width="140%">
 </div>
 
-Drug-induced liver injury (DILI) is a primary cause of drug attrition, associated with over 1000 medications and accounting for 32% of marketed drugs withdrawn due to toxicity. This has created an urgent demand for high-accuracy computational methods predicting DILI risk early in the drug development pipeline. We developed X-DILiver, a predictive framework built on the largest DILI-annotated dataset to date. We used data augmentation to improve model robustness and address class imbalance. A library of 312 machine learning models was created using various algorithms and molecular features, and then used an optimized ensemble strategy. The final model is an ensemble of two extreme gradient boosting models and seven recurrent neural networks. It achieved an accuracy of 0.68 and a Matthews correlation coefficient of 0.51 on an external test set, outperforming all other publicly available DILI prediction models.  While this performance improvement is significant, the accuracy of approximately 68% reflects ongoing challenges in DILI prediction. X-DILiver represents a valuable advancement that can assist in DILI risk assessment during drug discovery, serving as a reliable tool to predict DILI potential, thereby accelerating and improving drug discovery safety. To facilitate broad access X-DILiver is accessible at xdiliver.lile.bio. The training and test datasets and source code are available at the GitHub repository (https://github.com/Chemjg/X-DILiver).
+Drug-induced liver injury (DILI) is a primary cause of drug attrition, associated with over 1000 medications and accounting for 32% of marketed drugs withdrawn due to toxicity. This has created an urgent demand for high-accuracy computational methods predicting DILI risk early in the drug development pipeline. We developed X-DILiver, a predictive framework built on the largest DILI-annotated dataset to date. We used data augmentation to improve model robustness and address class imbalance. A library of 312 machine learning models was created using various algorithms and molecular features, and then used an optimized ensemble strategy. The final model is an ensemble of two extreme gradient boosting models and seven recurrent neural networks. It achieved an accuracy of 0.68 and a Matthews correlation coefficient of 0.51 on an external test set, outperforming all other publicly available DILI prediction models.  While this performance improvement is significant, the accuracy of approximately 68% reflects ongoing challenges in DILI prediction. X-DILiver represents a valuable advancement that can assist in DILI risk assessment during drug discovery, serving as a reliable tool to predict DILI potential, thereby accelerating and improving drug discovery safety. To facilitate broad access X-DILiver is accessible at http://xdiliver.lile.bio. The training and test datasets and source code are available at the GitHub repository (https://github.com/Chemjg/X-DILiver).
 
 **Keywords:** Drug-induced liver injury, Drug discovery, Hepatotoxicity, ADME-Tox, Machine learning
 
@@ -36,7 +36,7 @@ To run `X-DILiver`, you first need to prepare your input data. The file should b
 
 * `smiles`: The SMILES string representation of each molecule in the dataset.
 
-You can find our training dataset for model training on the X-DILiver webserver [Download](xdiliver.lile.bio).
+You can find our training dataset for model training on the X-DILiver webserver [Download]([xdiliver.lile.bio](http://xdiliver.lile.bio/)).
 
 ### Local Installation Requirements
 
@@ -46,7 +46,7 @@ To use X-DILiver locally, you must:
 
 DRAGON7-based molecular descriptors are required for DILI predictions.
 
-**Note:** For users without access to the DRAGON7 software, we provide a web-based interface that requires no local installation: **[X-DILiver](xdiliver.lile.bio)**
+**Note:** For users without access to the DRAGON7 software, we provide a web-based interface that requires no local installation: **[X-DILiver]([xdiliver.lile.bio](http://xdiliver.lile.bio/))**
 
 ## Usage
 
@@ -56,7 +56,7 @@ You can use X-DILiver in two ways:
 
 For a quick, browser-based prediction without installation, visit our web server:
 
-**[X-DILiver Web Server](xdiliver.lile.bio)**
+**[X-DILiver Web Server]([xdiliver.lile.bio](http://xdiliver.lile.bio/))**
 
 Simply upload your SMILES file and get predictions instantly.
 
