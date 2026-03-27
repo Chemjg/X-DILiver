@@ -36,7 +36,7 @@ To run `X-DILiver`, you first need to prepare your input data. The file should b
 
 * `smiles`: The SMILES string representation of each molecule in the dataset.
 
-You can find our training dataset for model training on the X-DILiver webserver [Download]((http://xdiliver.lile.bio/)).
+You can find our training dataset for model training on the X-DILiver webserver [Download](http://xdiliver.lile.bio/).
 
 ### Local Installation Requirements
 
@@ -46,7 +46,7 @@ To use X-DILiver locally, you must:
 
 DRAGON7-based molecular descriptors are required for DILI predictions.
 
-**Note:** For users without access to the DRAGON7 software, we provide a web-based interface that requires no local installation: **[X-DILiver]((http://xdiliver.lile.bio/))**
+**Note:** For users without access to the DRAGON7 software, we provide a web-based interface that requires no local installation: **[X-DILiver](http://xdiliver.lile.bio/)**
 
 ## Usage
 
